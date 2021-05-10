@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'dart:io';
 import 'dart:convert';
 import 'dart:async';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'quizbrain.dart';
@@ -202,6 +203,7 @@ class _QuizpageState extends State<Quizpage> {
         )),
         Center(
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: score_keeper,
           ),
         )
